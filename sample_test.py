@@ -2,7 +2,7 @@ from selenium import webdriver
 import pytest
 #METHOD -1 Without pytest
 #setup
-'''driver=webdriver.Chrome(executable_path="C:/Users/dsrid/chromedriver_win32/chromedriver.exe")
+driver=webdriver.Chrome(executable_path="C:/Users/dsrid/chromedriver_win32/chromedriver.exe")
 driver.implicitly_wait(10)
 driver.maximize_window()
 #get application
